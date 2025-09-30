@@ -1,1 +1,33 @@
+Estudiante: Diego Maximiliano Aviles Gomez 
+Codigo:SMTR042724
 
+PREGUNTAS:
+a. Describe brevemente de qué trata el dataset utilizado
+El dataset contiene información sobre videojuegos disponibles en la tienda de Steam, se hizo en mayo de 2019
+incluye datos como el género del juego, el número estimado de propietarios, y otros atributos relevantes
+
+b. ¿Qué información permite ver el resumen estadístico?
+-Cantidad de registros, que son 27,075 juegos
+-Promedios, por ejemplo el precio medio es de $6.08
+-Rangos, por ejemplo el precio va desde $0 hasta $421.99
+-Distribución, que la mayoría de los juegos tienen 0 logros, 0 tiempo de juego y precios bajos
+-Desviación estándar, que indica alta variabilidad en calificaciones y tiempo de juego
+
+c. ¿Qué cambios o tendencias se detectan en la información del dataset?
+-Muchos juegos tienen tiempo de juego promedio 0, lo que da a entender que no son muy jugados o son recientes y no los conocen.
+-La mayoría están en inglés (98%).
+-La edad requerida es generalmente 0, lo que indica que muchos juegos son aptos para todo público
+-Hay una gran concentración de juegos con precios bajos, pero también algunos títulos premium
+
+d. ¿Qué categorías sobresalen en la comparación y por qué crees que será?
+En este caso el tpo de categoria que mas se repite es de tipo objeto por que los datos mas se usan en este dataset para describir
+lo que contiene los juegos son mayormente texto ya que solo fechas y precio son los mas destacdos de tipo nt y float
+
+e. ¿Qué diferencias se observan entre los primeros y últimos registros?
+-Los primeros registros: juegos clásicos de Valve, con millones de propietarios y miles de horas jugadas
+-Los ultimos registros: juegos recientes, menos conocidos, con 0 tiempo de juego y pocos propietarios
+Esto refleja una diferencia clara entre títulos que tienen tiempo en venta y una comunidad establecida y los nuevos lanzamientos que aun no llaman a atencion 
+
+f. ¿Qué aportan las medidas estadísticas al análisis del dataset?
+Permiten identificar juegos muy populares vs. desconocidos, ayudan a segmentar el mercado (por precio, tiempo de juego, calificaciones, 
+Facilitan la detección de patrones y outliers, son clave para visualizar tendencias y tomar decisiones basadas en datos
